@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/yeezy-quote-generator/static/css/main.bf84667f.chunk.css",
+    "main.js": "/yeezy-quote-generator/static/js/main.94dbfe2d.chunk.js",
+    "main.js.map": "/yeezy-quote-generator/static/js/main.94dbfe2d.chunk.js.map",
+    "runtime-main.js": "/yeezy-quote-generator/static/js/runtime-main.93216320.js",
+    "runtime-main.js.map": "/yeezy-quote-generator/static/js/runtime-main.93216320.js.map",
+    "static/js/2.5a89270a.chunk.js": "/yeezy-quote-generator/static/js/2.5a89270a.chunk.js",
+    "static/js/2.5a89270a.chunk.js.map": "/yeezy-quote-generator/static/js/2.5a89270a.chunk.js.map",
+    "index.html": "/yeezy-quote-generator/index.html",
+    "precache-manifest.5873287640c2899ca8441712cc0b97ff.js": "/yeezy-quote-generator/precache-manifest.5873287640c2899ca8441712cc0b97ff.js",
+    "service-worker.js": "/yeezy-quote-generator/service-worker.js",
+    "static/css/main.bf84667f.chunk.css.map": "/yeezy-quote-generator/static/css/main.bf84667f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93216320.js",
+    "static/js/2.5a89270a.chunk.js",
+    "static/css/main.bf84667f.chunk.css",
+    "static/js/main.94dbfe2d.chunk.js"
+  ]
+}

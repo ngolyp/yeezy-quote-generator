@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sail&display=swap');
 
 html, body {
   background-color:  #2c3e50;
@@ -11,7 +12,7 @@ html, body {
   background-color: #FFF;
   
   display: block;
-  margin-top: 3rem;
+  margin-top: 7rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -28,7 +29,7 @@ html, body {
 }
 
 a {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 .fa-twitter {
@@ -40,4 +41,61 @@ a {
   text-align: center;
   font-size: 3.5rem;
   font-weight: lighter;
+}
+
+img {
+  padding: 0px;
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  cursor: pointer;
+}
+
+#text {
+  font-family: 'Sail', cursive;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  /* padding: 2rem; */
+}
+
+#author {
+  font-family: 'Sail', cursive;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  text-align: right;
+  margin-right: 3rem;
+  margin-top: 0;
+  padding: 0;
+}
+
+.text-box {
+  margin: 0 2rem;
+  height: 100px;
+}
+
+.bird-box {
+  display:flex;
+  margin-top: 5.5rem;
+  padding: 0 2rem;
+  text-align: right;
+}
+
+#me {
+text-align: left;
+margin-top: 1rem;
+margin-left: 5px;
+margin-right: 560px;
+}
+
+#tweet-quote {
+  margin-top: 0.5rem;
+}
+
+#clickme {
+  font-size: 0.8rem;
+  font-weight: 200;
+  text-align: center;
+  margin:0;
 }

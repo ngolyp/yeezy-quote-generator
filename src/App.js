@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Quote from './components/Quote';
-import axios from 'axios'
-import './App.css'
+import axios from 'axios';
+import './App.css';
+import Kanye from './img/kanye_head.png';
 
 class App extends Component {
   state = {
@@ -35,12 +36,20 @@ class App extends Component {
     return(
       <div className="quote-box">
       <div className='header'>Yeezy Said What?!?!?</div>
+      <img 
+      src={Kanye}
+      onClick={this.newQuote}
+      />
+      <p id='clickme'><em>Click me to hear the GREATEST QUOTE OF ALL TIME!</em></p>
       <Quote
       quote={this.state.quote}
       author={this.state.author}
       />
-      <button onClick={this.newQuote}>New Quote</button>
+      {/* <button onClick={this.newQuote}>New Quote</button> */}
+      <div className='bird-box'>
+        <p id='me'>Peter Ngo-Ly, 2019</p>
       <a href={this.tweetURL} id="tweet-quote" title="Tweet this quote!" target="_blank"><i className="fab fa-twitter"></i></a>
+      </div>
       </div>
     )
   }

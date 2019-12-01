@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a157e64a4163ad7a6c4d7a2791e02ee",
+    "revision": "f097db85c2120c263638f53364de75db",
     "url": "/yeezy-quote-generator/index.html"
   },
   {
-    "revision": "472071772318faebd50d",
+    "revision": "7dfd693ac16b25d17959",
     "url": "/yeezy-quote-generator/static/css/main.a22d6fc3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yeezy-quote-generator/static/js/2.926f0f82.chunk.js"
   },
   {
-    "revision": "472071772318faebd50d",
-    "url": "/yeezy-quote-generator/static/js/main.92d96369.chunk.js"
+    "revision": "7dfd693ac16b25d17959",
+    "url": "/yeezy-quote-generator/static/js/main.c14669ec.chunk.js"
   },
   {
     "revision": "258eb5fc029206865c7b",

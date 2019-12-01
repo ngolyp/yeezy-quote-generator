@@ -30,7 +30,7 @@ class App extends Component {
 
   
 
-   tweetURL = 'https://twitter.com/intent/tweet?hashtags=kanyequotes&related=freecodecamp&text=' +this.state.quote;
+   tweetURL = 'https://twitter.com/intent/tweet?hashtags=kanyequotes&related=freecodecamp&text=' + this.state.quote;
   
   render() {
     return(
@@ -40,7 +40,7 @@ class App extends Component {
       src={Kanye}
       onClick={this.newQuote}
       />
-      <p id='clickme'><em>Click me to hear the GREATEST QUOTE OF ALL TIME!</em></p>
+      <p id='clickme'><em>Click me to hear the GREATEST QUOTE OF ALL TIME!!!</em></p>
       <Quote
       quote={this.state.quote}
       author={this.state.author}
@@ -48,7 +48,7 @@ class App extends Component {
       {/* <button onClick={this.newQuote}>New Quote</button> */}
       <div className='bird-box'>
         <p id='me'>Peter Ngo-Ly, 2019</p>
-      <a href={this.tweetURL} id="tweet-quote" title="Tweet this quote!" target="_blank"><i className="fab fa-twitter"></i></a>
+      <a href="https://twitter.com/kanyewest?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" id="tweet-quote" title="Kanye West's Twitter" target="_blank"><i className="fab fa-twitter"></i></a>
       </div>
       </div>
     )
